@@ -1,0 +1,58 @@
+ /*
+ Program name: style.css
+ Author: Nhu Nguyen
+ Date created: 02/06/2025
+ Description: External CSS for patent registration form
+ */
+
+ /*General style*/
+ body{
+    font-family:'Times New Roman', Times, bold;
+    background-color: #DCEEF2;
+    color: black;
+    margin: 0;
+    padding: 20px; 
+ }
+
+ /*Banner*/
+ .banner{
+    text-align: center;
+    background-color: #027373;
+    color: wheat;
+    padding: 10px;
+    boder-radius: 8px;
+ }
+
+ /*logo*/
+ .logo{
+    width:80px;
+    vertical-align: middle;
+ }
+
+ /*form*/
+ form{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+ }
+ td,tr{
+    padding: 5px;
+ }
+ input,select,textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px;
+    border-radius: 5px;
+ }
+
+ /*footer*/
+ footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #027373;
+    color: wheat;
+    border-radius: 8px;
+ }
